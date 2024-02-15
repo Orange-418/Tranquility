@@ -1,4 +1,6 @@
 //What is wrong with you? And why are you blue?
+
+/*Delete this line after you turned off AV sample submissions. Thank you for testing responsibly!
 use clap::{App, Arg};
 use std::fs::{self};
 use std::process::Command;
