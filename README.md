@@ -1,5 +1,7 @@
 # Tranquility
 
+!!!!!Turn off sample submission and do NOT upload to Virus Total. Please.
+
 Tranquility is a custom stager and packer I wrote in Rust. It's mainly a side project I'm working on while I study for my OSEP certification. The tool is designed with payload encryption in mind, which means you can encrypt your payloads and store the keys on your own server.
 
 ## Disclaimer
@@ -31,20 +33,7 @@ Just make sure you serve both your key file and encrypted payload into the same 
 
 
 ## Stager Usage:
-The stager is made to fetch the created payload and execute it in mememory based on the settings you give it.
-First, build the stager as outlined in the top of this readme. Next, navigate to the release folder, and you can generate modified stagers with command line arguments.
-Running tranquility_stager.exe -h displays this menu:
+The stager is made to fetch the created payload and execute it in mememory.
+First, build the stager as outlined in the top of this readme.
 
-USAGE:
-    tranquility_stager.exe --ip <ip> --port <port> --filename <filename>
-
-OPTIONS:
-    -f, --filename <filename>    Name of the L33t_Pay10ad
-    -h, --help                   Print help information
-    -i, --ip <ip>                IP address of the server
-    -p, --port <port>            Port number of the server
-    -V, --version                Print version information
-
-Really simple. So just pass the name of your packed payload, the ip of your server, port, and run it. Your modified stager will be outputted to the target\release folder.
-
-This makes it really nice for bypassing simple AV (such as what is found on the OSEP) while still using common and convenient payloads, such as meterpreter payloads made by venom.
+Initial usage on my own machine yielding no AV detections, regardless how aggressive I was with my meterpreter session. Over time, meterpreter began getting killed when dropping into shells or migrating the process. Later, it would remove the stager immediately after compiling. YMMV.
