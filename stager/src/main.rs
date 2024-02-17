@@ -44,7 +44,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     let cargo_toml_content = format!(r#"
 [package]
-name = "tranquility" # change this to your actual package name
+name = "tranquility"
 version = "0.1.0"
 edition = "2018"
 
