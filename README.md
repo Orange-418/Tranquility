@@ -1,12 +1,10 @@
 # Tranquility
 
-!!!!!Turn off sample submission and do NOT upload to Virus Total. Please.
-
 Tranquility is a custom stager and packer I wrote in Rust. It's mainly a side project I'm working on while I study for my OSEP certification. The tool is designed with payload encryption in mind, which means you can encrypt your payloads and store the keys on your own server.
 
 ## Disclaimer
 
-This is just a pet project of mine, so please use it responsibly in your own test environments. I'm not responsible for any misuse or damage caused by this tool. Also, if you're testing it out, it'd be great if you could turn off AV sample submissions.
+This is just a pet project of mine, so please use it responsibly in your own test environments. I'm not responsible for any misuse or damage caused by this tool. Also, if you're testing it out, it'd be great if you could turn off AV sample submissions, at least until 2025 after I have taken my OSEP exam.
 
 ## Building Tranquility
 
