@@ -6,7 +6,7 @@ I have largely abaondoned it, and am working on a more refined and full kit writ
 
 ## Disclaimer
 
-This is just a pet project of mine, so please use it responsibly in your own test environments. I'm not responsible for any misuse or damage caused by this tool. Also, if you're testing it out, it'd be great if you could turn off AV sample submissions, at least until 2025 after I have taken my OSEP exam.
+This is just a pet project of mine, so please use it responsibly in your own test environments. Also, if you're testing it out, it'd be great if you could turn off AV sample submissions, at least until 2025 after I have taken my OSEP exam.
 
 ## Building Tranquility
 
@@ -29,7 +29,7 @@ OPTIONS:
     -t, --target <target>    Target file for the encrypted output
 
 It's pretty self explanatory. When you process a file, it will generate a random key and iv. the iv will be prepended to the encrypted file, and the key will be saved alongside your new file with ".key" appended to the end.
-Just make sure you serve both your key file and encrypted payload into the same folder. You can go ahead and stick both these files on your http server.
+Just make sure you serve both your key file and encrypted payload into the same folder. You can go ahead and stick both of these files on your http server.
 
 
 ## Stager Usage:
